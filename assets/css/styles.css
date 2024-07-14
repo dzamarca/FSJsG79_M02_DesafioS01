@@ -6,3 +6,121 @@
 .boxes{
     display: flex;
 }
+
+/*ASIDE*/
+aside{
+    border: 1px solid grey;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 0 250px;
+}
+.chat{
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 5px 0 5px 30px;
+}
+
+/*Estado*/
+.estado{
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px 5px 30px;
+}
+
+.estadoDescripcion{
+    display: flex;
+}
+
+.thumbnail_tiny{
+    width: 30px;
+    border-radius: 100%;
+}
+
+.boxTexto{
+    padding-left: 10px;
+}
+
+.estadoTitulo{
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 14px;
+}
+.estadoTexto{
+    font-family: "Open Sans";
+    font-size: 10px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #BEC1BB;
+    width: 40px;
+}
+
+
+/*Nuevo Chat*/
+
+.nuevochat{
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 100px;
+}
+
+button{
+    font-family: "Open Sans";
+    background-color: #A491D2;
+    border: 0;
+    color: #fff;
+    padding: 10px 60px;
+}
+
+button:hover {
+    background-color: #CDC3E6;
+}
+
+button:focus{
+    background-color: #BEC1BB;
+}
+
+/*Chats*/
+.thumbnail_normal{
+    width: 50px;
+    border-radius: 100%;
+}
+
+
+/*MAIN*/
+main{
+    background-color: #E8EBE4;
+    border: 1px solid grey;
+    border-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imgCentral{
+    width: 200px;
+    padding: 10px;
+}
+
+.boxBodyTitulo{
+    font-family: "Roboto";
+    font-size: 45px;
+}
+.boxBodyTexto{
+    font-family: "Open Sans";
+    font-size: 16px;
+}
